@@ -37,17 +37,17 @@ const Navbar = () => {
             >
               Login
             </Link>
+            <Link
+              to="/jobs"
+              className="inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-sm font-medium hover:border-secondary"
+            >
+              Job Search
+            </Link>
             <a
               href="#"
               className="inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-sm font-medium hover:border-secondary"
             >
               About
-            </a>
-            <a
-              href="#"
-              className="inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-sm font-medium hover:border-secondary"
-            >
-              Contact
             </a>
           </div>
           <div className="sm:hidden flex items-center">
